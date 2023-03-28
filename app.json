@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "LinkShort",
+    "name": "EasyZip",
     "slug": "LinkShort",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -15,16 +15,23 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.codegtech.LinkShort"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.codegtech.LinkShort"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "cb6ba7d9-84d2-4282-bd11-87013c6b7090"
+      }
     }
   }
 }
